@@ -1,0 +1,235 @@
+/* Import font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.83rem;
+}
+
+.no-pointer {
+    pointer-events: auto;
+    user-select: none;
+}
+
+.title {
+    font-family: "Times New Roman", sans-serif;
+    z-index: 3;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.title h2 {
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 0.88;
+    transition: font-size 0.35s ease-in-out;
+}
+
+.title h1 {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 0.88;
+    transition: font-size 0.35s ease-in-out;
+}
+
+.background {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.75) 100%), linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.4) 70%);
+    z-index: 2;
+}
+
+.navigation {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 3rem;
+    width: 90%;
+    margin-top: -7.5px;
+    z-index: 99;
+}
+
+.nav-item a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    padding: 15px;
+    pointer-events: auto;
+    user-select: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item a:hover {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.item-container {
+    display: flex;
+    align-items: center;
+}
+  
+.item-container img {
+    width: 4rem;
+    height: auto;
+}
+
+.item-container span {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+
+
+.container {
+    z-index: 3;
+    width: 85%;
+    padding-top: 10vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Introduction {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Introduction img {
+    border-radius: 8px;
+    width: 80%;
+}
+
+.Introduction h4 {
+    margin: 5px auto;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.Introduction h5 {
+    max-width: 90%;
+    margin: 5px auto;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.content {
+    position: relative;
+    z-index: 3;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 1.5rem;
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    border: 1.5px solid rgba(217, 217, 217, .75);
+    border-radius: 18px;
+    padding: 10px;
+    width: 300px;
+    background-color: rgba(217, 217, 217, .35);
+    backdrop-filter: blur(2px);
+}
+
+.card:hover {
+    background-color: rgba(217, 217, 217, .45);
+    backdrop-filter: blur(4px);
+}
+  
+.card img {
+    width: 10vh;
+    height: auto;
+    border-radius: 12px;
+    border: 1.5px solid rgb(217, 217, 217);
+}
+
+.card-content h2 {
+    color: rgba(255, 255, 255, 1);
+    margin-top: 5px;
+    margin-bottom: 0;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+  
+.card-content p {
+    color: rgb(255, 255, 255);
+    margin-top: 0;
+    margin-bottom: 0;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    font-size: .8rem;
+    overflow: hidden;
+}
+
+.navbar {
+    position: absolute;
+    overflow: hidden;
+    background-color: #333;
+    z-index: 999;
+}
+  
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+  
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
