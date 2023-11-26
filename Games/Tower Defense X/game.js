@@ -1,18 +1,59 @@
-let strategies = [];
-
-fetch('Strats/strats.json').then(response => {
-    if (!response.ok) {
-        throw new Error('Network response was not ok');
+let strategies = [
+    {
+      "name": "Hafner's Deserted Island [Solo, Easy]",
+      "description": "Hafner's gold, exp and wins strat!",
+      "icon": "https://cdn.discordapp.com/attachments/1177542974326964254/1178112338155548752/image.png",
+      "players": 1,
+      "difficulty": "Easy",
+      "type": ["Video"],
+      "href": "https://youtu.be/6sLZMTzf6QY?si=QSXsq0ufj1bkZpLb"
+    },
+    {
+      "name": "The Plague Exterminators [Squad, Elite]",
+      "description": "How to Defeat Elite Mode!",
+      "icon": "https://cdn.discordapp.com/attachments/711636453452415019/1178135747031728189/image.png",
+      "players": 4,
+      "difficulty": "Elite",
+      "type": ["Document", "Video"],
+      "href": "https://docs.google.com/document/d/1ntw5T7svYrdTwotL9OwVTZ83x5SOU0lZtt2U6NqpJ2k"
+    },
+    {
+      "name": "@_moopy_'s Vaporized City (V2.0) [Solo, Elite]",
+      "description": "How to Defeat Elite Mode!",
+      "icon": "https://cdn.discordapp.com/attachments/711636453452415019/1178137835103068190/image.png",
+      "players": 1,
+      "difficulty": "Elite",
+      "type": ["Document", "Video"],
+      "href": "https://docs.google.com/document/d/1KhNMkEAJ5YQukdI44jkeb1Q6cRWM2ul1rRXLosHGnNM"
+    },
+    {
+      "name": "Oil Money Farm Strategy [Solo, Elite]",
+      "description": "How to Defeat Elite Mode!",
+      "icon": "https://cdn.discordapp.com/attachments/711636453452415019/1178138463107809380/image.png",
+      "players": 4,
+      "difficulty": "Elite",
+      "type": ["Document", "Video"],
+      "href": "https://docs.google.com/document/d/136d2DuKq4qcHmwMsCoiUZjStcKpXoDWmO7Vn31kP9gc"
+    },
+    {
+      "name": "Da Twigs Solo Strategy: Easy Mode",
+      "description": "How to Defeat Elite Mode!",
+      "icon": "https://cdn.discordapp.com/attachments/711636453452415019/1178140682699952149/image.png",
+      "players": 1,
+      "difficulty": "Easy",
+      "type": ["Document"],
+      "href": "https://docs.google.com/document/d/1QlTebuVYKxDGXwIfxmykoh8kfWyHSYoGuq50gJE2jR0"
+    },
+    {
+      "name": "Da Twigs Solo Strategy: Elite Mode",
+      "description": "How to Defeat Elite Mode!",
+      "icon": "https://cdn.discordapp.com/attachments/711636453452415019/1178140164577566810/image.png",
+      "players": 1,
+      "difficulty": "Elite",
+      "type": ["Document"],
+      "href": "https://docs.google.com/document/d/1WwdJKgs1exLFnPHO4j2-cJbuwMqkz5zMFTyG1HDclD4"
     }
-
-    return response.json();
-}).then(data => {
-    strategies = data;
-
-    displayFilteredStrategies();
-}).catch(error => {
-    console.error('There was a problem fetching the data:', error);
-});
+];
 
 function filterStrategies() {
     const selectedPlayers = Array.from(document.querySelectorAll('.player-filter:checked')).map(checkbox => parseInt(checkbox.value));
