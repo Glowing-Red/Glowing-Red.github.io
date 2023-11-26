@@ -2,15 +2,15 @@
   {
     "name": "Hafner's Deserted Island [Solo, Easy]",
     "description": "Hafner's gold, exp and wins strat!",
-    "icon": "https://cdn.discordapp.com/attachments/1177542974326964254/1178112338155548752/image.png",
+    "icon": "https://cdn.discordapp.com/attachments/711636453452415019/1178317260901842944/hafner.png?ex=6575b477&is=65633f77&hm=17d47944e18e826e91cd7252be2461d6cbe6c93a27deec5eb2d50962c41e9f66&",
     "players": 1,
     "difficulty": "Easy",
     "type": ["Video"],
-    "href": "https://youtu.be/6sLZMTzf6QY?si=QSXsq0ufj1bkZpLb"
+   "href": "https://youtu.be/6sLZMTzf6QY?si=QSXsq0ufj1bkZpLb"
   },
   {
     "name": "The Plague Exterminators [Squad, Elite]",
-    "description": "How to Defeat Elite Mode!",
+    "description": "",
     "icon": "https://cdn.discordapp.com/attachments/711636453452415019/1178135747031728189/image.png",
     "players": 4,
     "difficulty": "Elite",
@@ -18,9 +18,9 @@
     "href": "https://docs.google.com/document/d/1ntw5T7svYrdTwotL9OwVTZ83x5SOU0lZtt2U6NqpJ2k"
   },
   {
-    "name": "@_moopy_'s Vaporized City (V2.0) [Solo, Elite]",
-    "description": "How to Defeat Elite Mode!",
-    "icon": "https://cdn.discordapp.com/attachments/711636453452415019/1178137835103068190/image.png",
+    "name": "_moopy_'s Vaporized City (V2) [Solo, Elite]",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/713491427165863936/ac1143363e350b68cab9e00929cdd570.webp",
     "players": 1,
     "difficulty": "Elite",
     "type": ["Document", "Video"],
@@ -28,7 +28,7 @@
   },
   {
     "name": "Oil Money Farm Strategy [Solo, Elite]",
-    "description": "How to Defeat Elite Mode!",
+    "description": "",
     "icon": "https://cdn.discordapp.com/attachments/711636453452415019/1178138463107809380/image.png",
     "players": 4,
     "difficulty": "Elite",
@@ -37,8 +37,8 @@
   },
   {
     "name": "Da Twigs Solo Strategy: Easy Mode",
-    "description": "How to Defeat Elite Mode!",
-    "icon": "https://cdn.discordapp.com/attachments/711636453452415019/1178140682699952149/image.png",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/718556524146065479/8ad277d090db1c061492f32a658a77f7.webp",
     "players": 1,
     "difficulty": "Easy",
     "type": ["Document"],
@@ -46,11 +46,128 @@
   },
   {
     "name": "Da Twigs Solo Strategy: Elite Mode",
-    "description": "How to Defeat Elite Mode!",
-    "icon": "https://cdn.discordapp.com/attachments/711636453452415019/1178140164577566810/image.png",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/718556524146065479/8ad277d090db1c061492f32a658a77f7.webp",
     "players": 1,
     "difficulty": "Elite",
     "type": ["Document"],
-    "href": "https://docs.google.com/document/d/1WwdJKgs1exLFnPHO4j2-cJbuwMqkz5zMFTyG1HDclD4"
+    "href": "https://docs.google.com/document/d/1QlTebuVYKxDGXwIfxmykoh8kfWyHSYoGuq50gJE2jR0"
+  },
+  {
+    "name": "._.niko's Desert Island Solo Speedrun",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/343094262919069706/f88115b8f1fe9f75ad4d3ba4ef4ae53a.webp",
+    "players": 1,
+    "difficulty": "Easy",
+    "type": ["Document", "Video"],
+    "href": "https://docs.google.com/document/d/10igNeyXw3rGBSjIViuRRs-HPCUOA9nfWepXvuSCH7zc"
+  },
+  {
+    "name": "Lighting Fast Eradication",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/690621426121572442/ef0a2a93c0450d4701f6cade2811fb0c.webp",
+    "players": 1,
+    "difficulty": "Intermediate",
+    "type": ["Document", "Video"],
+    "href": "https://docs.google.com/document/d/1BQlgjt-cUr_JyXy58RdnVc09_b13NVCBqZEPmgxa3JM"
+  },
+  {
+    "name": "Silly Expert Duo Strategy",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/992305190759837776/cd29115ffbd9ed9df29bf1839282fbec.webp",
+    "players": 2,
+    "difficulty": "Expert",
+    "type": ["Document"],
+    "href": "https://docs.google.com/document/d/1BAhkAl70YGqOnXxTmvvaPGPA3XvZWfReILkSv-RpZ0M"
+  },
+  {
+    "name": "Duo Intermediate Speedrun Strategy",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/474313062002851850/4ba8172201ad35cc7163732e153a1efe.webp",
+    "players": 2,
+    "difficulty": "Intermediate",
+    "type": ["Document", "Video"],
+    "href": "https://docs.google.com/document/d/1tKOUjrSFIvgSc9IiNvpiBisiY0bv-qIj8D9OY9SAXeA"
+  },
+  {
+    "name": "The Human Eradicator Strat",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/1154170420203880591/2c5ded5d662de688b5d055b67832a53f.webp",
+    "players": 1,
+    "difficulty": "Intermediate",
+    "type": ["Document", "Video"],
+    "href": "https://docs.google.com/document/d/1lwXyxiHm-hm6YH_0if4Kms39ViHJJvo2Gzh4ZlDN1sM"
+  },
+  {
+    "name": "Typical trio Elite strat",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/725388605589291009/536c6cab5b46c5c2f08e954ed0bf1999.webp",
+    "players": 3,
+    "difficulty": "Elite",
+    "type": ["Document"],
+    "href": "https://docs.google.com/document/d/1b0kCXX-qtc-Bhyx9zfCV_ihEEwiPv9jgZss6m3bmj8Y"
+  },
+  {
+    "name": "Expert Quad Strategy",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/918698096832151553/5de9b5f7396c94a46c84332e1d06d580.webp",
+    "players": 3,
+    "difficulty": "Elite",
+    "type": ["Document"],
+    "href": "https://docs.google.com/document/d/1-FyA5P3ZRJIGdnkc-6Zx9mEzBRSraRYKQctZW4rHxKo"
+  },
+  {
+    "name": "How To Farm Like a PRO",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/810870957152665631/3d2d12004703dccc6584bf055dae83d2.webp",
+    "players": 0,
+    "difficulty": "",
+    "type": ["Document"],
+    "href": "https://docs.google.com/document/d/1FqUAAbV-W_MGpn6BAx5h2_70zk9BKV5BJX_3DcQIj0U"
+  },
+  {
+    "name": "(Easy) Naval Speedrun Strategy",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/932821241704886312/3cafef9e53e980240674e9d2bfa3cdee.webp",
+    "players": 1,
+    "difficulty": "Easy",
+    "type": ["Document"],
+    "href": "https://docs.google.com/document/d/1_eLD6WFnK1zbZEs7-ifewhuvcSYUn8XyEvZN5cktAjk"
+  },
+  {
+    "name": "Solo speed run intermediate",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/900471004621598780/679e530b10e4f0b0053423641ca7932c.webp",
+    "players": 1,
+    "difficulty": "Intermediate",
+    "type": ["Document", "Video"],
+    "href": "https://docs.google.com/document/d/1I89s3Qt5ifK0enKo-NwgrE7043K-FqcmW8ztqMzilOI"
+  },
+  {
+    "name": "The A-Grade Juggless Elite Strategy",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/478245121683619841/80b86d1800874608146f788b67bc9aa9.webp",
+    "players": 4,
+    "difficulty": "Elite",
+    "type": ["Document", "Video"],
+    "href": "https://docs.google.com/document/d/1I89s3Qt5ifK0enKo-NwgrE7043K-FqcmW8ztqMzilOI"
+  },
+  {
+    "name": "Simple TDX Solo Intermediate",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/625770715894775839/f78d536fb91b0334dcba5d260e32d03f.webp",
+    "players": 1,
+    "difficulty": "Intermediate",
+    "type": ["Document", "Video"],
+    "href": "https://docs.google.com/document/d/1zK76w8L3fLDdEctZxXpZxND4bcWvXMYRTskO0sTRorw"
+  },
+  {
+    "name": "Solo Intermediate for DIRT CHEAP!",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/1005226971493564427/5fdef9926642a847b54eb34eb7512c6c.webp",
+    "players": 1,
+    "difficulty": "Intermediate",
+    "type": ["Document"],
+    "href": "https://docs.google.com/document/d/1xliDzk_QTZVFcWd6OdMOKOYIZ4xPlY52yE8hPU81yWc"
   }
 ]
