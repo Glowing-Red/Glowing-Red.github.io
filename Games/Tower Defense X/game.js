@@ -10,7 +10,7 @@ let strategies = [
     },
     {
       "name": "The Plague Exterminators [Squad, Elite]",
-      "description": "How to Defeat Elite Mode!",
+      "description": "",
       "icon": "https://cdn.discordapp.com/attachments/711636453452415019/1178135747031728189/image.png",
       "players": 4,
       "difficulty": "Elite",
@@ -19,7 +19,7 @@ let strategies = [
     },
     {
       "name": "@_moopy_'s Vaporized City (V2.0) [Solo, Elite]",
-      "description": "How to Defeat Elite Mode!",
+      "description": "",
       "icon": "https://cdn.discordapp.com/attachments/711636453452415019/1178137835103068190/image.png",
       "players": 1,
       "difficulty": "Elite",
@@ -28,7 +28,7 @@ let strategies = [
     },
     {
       "name": "Oil Money Farm Strategy [Solo, Elite]",
-      "description": "How to Defeat Elite Mode!",
+      "description": "",
       "icon": "https://cdn.discordapp.com/attachments/711636453452415019/1178138463107809380/image.png",
       "players": 4,
       "difficulty": "Elite",
@@ -37,21 +37,48 @@ let strategies = [
     },
     {
       "name": "Da Twigs Solo Strategy: Easy Mode",
-      "description": "How to Defeat Elite Mode!",
-      "icon": "https://cdn.discordapp.com/attachments/711636453452415019/1178140682699952149/image.png",
+      "description": "",
+      "icon": "https://cdn.discordapp.com/avatars/718556524146065479/8ad277d090db1c061492f32a658a77f7.webp",
       "players": 1,
       "difficulty": "Easy",
       "type": ["Document"],
       "href": "https://docs.google.com/document/d/1QlTebuVYKxDGXwIfxmykoh8kfWyHSYoGuq50gJE2jR0"
     },
     {
-      "name": "Da Twigs Solo Strategy: Elite Mode",
-      "description": "How to Defeat Elite Mode!",
-      "icon": "https://cdn.discordapp.com/attachments/711636453452415019/1178140164577566810/image.png",
+        "name": "Da Twigs Solo Strategy: Elite Mode",
+        "description": "",
+        "icon": "https://cdn.discordapp.com/avatars/718556524146065479/8ad277d090db1c061492f32a658a77f7.webp",
+        "players": 1,
+        "difficulty": "Elite",
+        "type": ["Document"],
+        "href": "https://docs.google.com/document/d/1QlTebuVYKxDGXwIfxmykoh8kfWyHSYoGuq50gJE2jR0"
+      },
+    {
+      "name": "._.niko's Desert Island Solo Speedrun",
+      "description": "",
+      "icon": "https://cdn.discordapp.com/avatars/343094262919069706/f88115b8f1fe9f75ad4d3ba4ef4ae53a.webp",
       "players": 1,
-      "difficulty": "Elite",
-      "type": ["Document"],
-      "href": "https://docs.google.com/document/d/1WwdJKgs1exLFnPHO4j2-cJbuwMqkz5zMFTyG1HDclD4"
+      "difficulty": "Easy",
+      "type": ["Document", "Video"],
+      "href": "https://docs.google.com/document/d/10igNeyXw3rGBSjIViuRRs-HPCUOA9nfWepXvuSCH7zc"
+    },
+    {
+        "name": "Lighting Fast Eradication",
+        "description": "",
+        "icon": "https://cdn.discordapp.com/avatars/690621426121572442/ef0a2a93c0450d4701f6cade2811fb0c.webp",
+        "players": 1,
+        "difficulty": "Intermediate",
+        "type": ["Document", "Video"],
+        "href": "https://docs.google.com/document/d/1BQlgjt-cUr_JyXy58RdnVc09_b13NVCBqZEPmgxa3JM"
+    },
+    {
+        "name": "Silly Expert Duo Strategy",
+        "description": "",
+        "icon": "https://cdn.discordapp.com/avatars/992305190759837776/cd29115ffbd9ed9df29bf1839282fbec.webp",
+        "players": 2,
+        "difficulty": "Expert",
+        "type": ["Document"],
+        "href": "https://docs.google.com/document/d/1BAhkAl70YGqOnXxTmvvaPGPA3XvZWfReILkSv-RpZ0M"
     }
 ];
 
