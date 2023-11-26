@@ -57,7 +57,8 @@ header ul a {
 .background {
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     z-index: 1;
 }
@@ -65,8 +66,8 @@ header ul a {
 .overlay {
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.75) 100%), linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.4) 70%);
     z-index: 2;
@@ -170,17 +171,21 @@ header ul a {
 .card {
     display: flex;
     align-items: flex-start;
-    border: 1.5px solid rgba(217, 217, 217, .75);
     border-radius: 18px;
     padding: 10px;
     width: 300px;
-    background-color: rgba(217, 217, 217, .35);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(3px);
+    background-color: rgba(69, 75, 109, 0.25);
+    border: 1.5px solid rgba(217, 217, 217, .75);
+    box-shadow: 2px 2px 12px rgba(0,0,0,.16);
+    transition: backdrop-filter 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .card:hover {
-    background-color: rgba(217, 217, 217, .45);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(6px);
+    background-color: rgba(69, 75, 109, 0.5);
+    border: 1.5px solid rgba(217, 217, 217, 1);
 }
   
 .card img {
@@ -232,4 +237,3 @@ header ul a {
     background-color: #ddd;
     color: black;
 }
-  
