@@ -36,6 +36,15 @@
     "href": "https://docs.google.com/document/d/136d2DuKq4qcHmwMsCoiUZjStcKpXoDWmO7Vn31kP9gc"
   },
   {
+    "name": "Da Twigs Solo Strategy Documents",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/718556524146065479/8ad277d090db1c061492f32a658a77f7.webp",
+    "players": 1,
+    "difficulty": "",
+    "type": ["Document"],
+    "href": "https://docs.google.com/document/d/1K7fZLAerlkgzrbp6wGWNRwHdw3TOwPTEuezfqL5zwm4"
+  },
+  {
     "name": "Da Twigs Solo Strategy: Easy Mode",
     "description": "",
     "icon": "https://cdn.discordapp.com/avatars/718556524146065479/8ad277d090db1c061492f32a658a77f7.webp",
@@ -43,6 +52,15 @@
     "difficulty": "Easy",
     "type": ["Document"],
     "href": "https://docs.google.com/document/d/1QlTebuVYKxDGXwIfxmykoh8kfWyHSYoGuq50gJE2jR0"
+  },
+  {
+    "name": "Da Twigs Solo Strategy: Intermediate Mode",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/718556524146065479/8ad277d090db1c061492f32a658a77f7.webp",
+    "players": 1,
+    "difficulty": "Intermediate",
+    "type": ["Document"],
+    "href": "https://docs.google.com/document/d/1ND7n-cZ2RHm0RKRqnvv9R9zUVG-kacRbuXS7J1kg-lg"
   },
   {
     "name": "Da Twigs Solo Strategy: Elite Mode",
@@ -169,5 +187,23 @@
     "difficulty": "Intermediate",
     "type": ["Document"],
     "href": "https://docs.google.com/document/d/1xliDzk_QTZVFcWd6OdMOKOYIZ4xPlY52yE8hPU81yWc"
+  },
+  {
+    "name": "Doctors Destruction",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/753676935854424067/b1e3aa339944cecc60cd248baf4082a5.webp",
+    "players": 2,
+    "difficulty": "Elite",
+    "type": ["Document", "Video"],
+    "href": "https://docs.google.com/document/d/1w7cAOJSlk1VRo0WXR0AtWq_LRCe2c0d7cOYEZqZdpMs"
+  },
+  {
+    "name": "Duality Elite Strategy",
+    "description": "",
+    "icon": "https://cdn.discordapp.com/avatars/657180805260640293/fa21d262406e2599b9c7a9bd4651344d.webp",
+    "players": 2,
+    "difficulty": "Elite",
+    "type": ["Document"],
+    "href": "https://docs.google.com/document/d/10Ni_b1WW94t3nwcnGyCe1pwG2YeOF53ZrlacQPdbkLs"
   }
 ]
