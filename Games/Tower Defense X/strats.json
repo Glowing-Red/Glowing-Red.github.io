@@ -61,7 +61,7 @@
     "players": 1,
     "difficulty": "Elite",
     "type": ["Document"],
-    "href": "https://docs.google.com/document/d/1QlTebuVYKxDGXwIfxmykoh8kfWyHSYoGuq50gJE2jR0"
+    "href": "https://docs.google.com/document/d/1WwdJKgs1exLFnPHO4j2-cJbuwMqkz5zMFTyG1HDclD4"
   },
   {
     "name": "._.niko's Desert Island Solo Speedrun",
@@ -176,7 +176,23 @@
     "href": "https://docs.google.com/document/d/1w7cAOJSlk1VRo0WXR0AtWq_LRCe2c0d7cOYEZqZdpMs"
   },
   {
-    "name": "Duality Elite Strategy",
+    "name": "“ITY” ELITE PACK",
+    "icon": "https://cdn.discordapp.com/avatars/657180805260640293/fa21d262406e2599b9c7a9bd4651344d.webp",
+    "players": 0,
+    "difficulty": "Elite",
+    "type": ["Document"],
+    "href": "https://docs.google.com/document/d/1u-dsOGDyJGUEUnFJ5gKklXbSbsCOQTRcaFEDH9xaFCs"
+  },
+  {
+    "name": "SOliDITY Elite",
+    "icon": "https://cdn.discordapp.com/avatars/657180805260640293/fa21d262406e2599b9c7a9bd4651344d.webp",
+    "players": 1,
+    "difficulty": "Elite",
+    "type": ["Document"],
+    "href": "https://docs.google.com/document/d/1_8A8o8T17dMp6WqB_aJ-98QUKY2Fur7xhvc7J19SV2E"
+  },
+  {
+    "name": "Duality Elite",
     "icon": "https://cdn.discordapp.com/avatars/657180805260640293/fa21d262406e2599b9c7a9bd4651344d.webp",
     "players": 2,
     "difficulty": "Elite",
@@ -197,7 +213,7 @@
     "players": 3,
     "difficulty": "Expert",
     "type": ["Document", "Video"],
-    "href": "https://docs.google.com/document/d/1UROwsv4ww6qSPO19hIpV9AfpdofzpHqO037G2_jMnik"
+    "href": "https://docs.google.com/document/d/1Ab8YIrAwGUwfqYUQRS-3W7iNIh_N-rMGyCxFR1krug0"
   },
   {
     "name": "Vapor City Elite",
@@ -206,5 +222,53 @@
     "difficulty": "Elite",
     "type": ["Video"],
     "href": "https://youtu.be/eitUJniQcZU?si=MOCQAP4_U98ZpPud"
+  },
+  {
+    "name": "Secret Shotgun",
+    "icon": "https://cdn.discordapp.com/avatars/835231580762144778/7810d12c6711ba174bb65e8edfa70752.webp",
+    "players": 4,
+    "difficulty": "Elite",
+    "type": ["Document"],
+    "href": "https://docs.google.com/document/d/1Jzc6I2J2rXjeRxJNqwtl7_w-EDiXZavSss7uAR6e21U"
+  },
+  {
+    "name": "EMPA’S #1 EXP GRINDER STRAT V2",
+    "icon": "https://cdn.discordapp.com/avatars/852931956327841883/a_d59907debbe0ddac0e5560e74d736dd8.gif",
+    "players": 1,
+    "difficulty": "Easy",
+    "type": ["Document"],
+    "href": "https://docs.google.com/document/d/1vhX9bDO6nLwUQ3PkMqBtGkm_o85i3Oa8XpyiELhd3uA"
+  },
+  {
+    "name": "MK II Barbeque Strategy",
+    "icon": "https://cdn.discordapp.com/avatars/1007636793266548828/df4d3e891bf85e2fb200ca3b0b60cc79.webp",
+    "players": 4,
+    "difficulty": "Expert",
+    "type": ["Document"],
+    "href": "https://docs.google.com/document/d/1vhX9bDO6nLwUQ3PkMqBtGkm_o85i3Oa8XpyiELhd3uA"
+  },
+  {
+    "name": "Mechanical Warfare",
+    "icon": "https://cdn.discordapp.com/avatars/930166813487161454/a_df0ba38b8e70e97b367a3ec0439f1f32.gif",
+    "players": 4,
+    "difficulty": "Expert",
+    "type": ["Document", "Video"],
+    "href": "https://docs.google.com/document/d/1mJtTF92x8iwdPtTd29fMvPppE-rBo2S3deOTgEUpMHQ"
+  },
+  {
+    "name": "Strategy Central Solo Easy",
+    "icon": "https://cdn.discordapp.com/avatars/625770715894775839/f78d536fb91b0334dcba5d260e32d03f.webp",
+    "players": 1,
+    "difficulty": "Easy",
+    "type": ["Document", "Video"],
+    "href": "https://docs.google.com/document/d/14pxpq9WmkY4Ww_08yr7jUKO6xUaqSgR1BqbXX91kJj8"
+  },
+  {
+    "name": "Dov’s No-leak Secret Forest Elite Solo",
+    "icon": "https://cdn.discordapp.com/avatars/198070651532214272/ae57b7f0efb617ac8ba0131b604821b4.webp",
+    "players": 1,
+    "difficulty": "Intermediate",
+    "type": ["Document"],
+    "href": "https://docs.google.com/document/d/1zcnwVliyV8xTnqvcu1WNVt_FwUA1oOUtZhPbuffSZIQ"
   }
 ]

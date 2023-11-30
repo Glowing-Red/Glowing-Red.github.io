@@ -12,6 +12,11 @@ body {
     overflow: hidden;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
 header ul {
     display: flex;
     list-style: none;
@@ -315,6 +320,16 @@ header ul a {
     margin-bottom: 5px;
 }
 
+.Header-Top input {
+    border: 0;
+    border-radius: 8px;
+}
+
+.Header-Top button {
+    border: 0;
+    border-radius: 4px;
+}
+
 .Header-Bottom {
     display: flex;
     margin: 10px;
@@ -367,8 +382,8 @@ a {
 }
 
 .Strategy img {
-    height: 80px;
-    width: 100px;
+    height: 80%;
+    width: auto;
     border-radius: 8px;
     margin: 10px;
 }

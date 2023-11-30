@@ -48,6 +48,10 @@ function displayFilteredStrategies() {
         const img = document.createElement('img');
         img.src = strategy.icon;
         img.alt = '';
+        img.onerror = function() {
+            img.src = 'https://ih0.redbubble.net/image.772618514.8430/raf,360x360,075,t,fafafa:ca443f4786.jpg';
+            img.alt = 'Discord Error Picture';
+        };
 
         const h1 = document.createElement('h1');
         h1.textContent = strategy.name;
