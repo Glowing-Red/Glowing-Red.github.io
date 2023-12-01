@@ -1,11 +1,11 @@
 [
   {
     "name": "Hafner's Deserted Island [Solo, Easy]",
-    "icon": "https://cdn.discordapp.com/attachments/711636453452415019/1178317260901842944/hafner.png?ex=6575b477&is=65633f77&hm=17d47944e18e826e91cd7252be2461d6cbe6c93a27deec5eb2d50962c41e9f66&",
+    "icon": "https://cdn.discordapp.com/attachments/711636453452415019/1178317260901842944/hafner.png",
     "players": 1,
     "difficulty": "Easy",
     "type": ["Video"],
-   "href": "https://youtu.be/6sLZMTzf6QY?si=QSXsq0ufj1bkZpLb"
+   "href": "https://youtu.be/6sLZMTzf6QY"
   },
   {
     "name": "The Plague Exterminators [Squad, Elite]",
@@ -221,7 +221,7 @@
     "players": 1,
     "difficulty": "Elite",
     "type": ["Video"],
-    "href": "https://youtu.be/eitUJniQcZU?si=MOCQAP4_U98ZpPud"
+    "href": "https://youtu.be/eitUJniQcZU"
   },
   {
     "name": "Secret Shotgun",
@@ -277,7 +277,7 @@
     "players": 1,
     "difficulty": "Elite",
     "type": ["Video"],
-    "href": "https://youtu.be/d8HWh_EpB20?si=XvJkRZlqCkjnzAAg"
+    "href": "https://youtu.be/d8HWh_EpB20"
   },
   {
     "name": "Easy Mode SOLO VICTORY with RANGER ONLY",
@@ -285,7 +285,7 @@
     "players": 1,
     "difficulty": "Easy",
     "type": ["Video"],
-    "href": "https://youtu.be/spZQXYWgcpI?si=rD1KhyHQWGljghIl"
+    "href": "https://youtu.be/spZQXYWgcpI"
   },
   {
     "name": "Elite Mode SOLO SPEEDRUN TRIUMPH Under 10 Minutes",
@@ -293,6 +293,6 @@
     "players": 1,
     "difficulty": "Elite",
     "type": ["Video"],
-    "href": "https://youtu.be/UUOFO_3sST4?si=_YsSggd2Bx6Yreux"
+    "href": "https://youtu.be/UUOFO_3sST4"
   }
 ]
