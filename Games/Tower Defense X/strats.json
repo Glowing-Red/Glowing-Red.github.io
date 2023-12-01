@@ -270,5 +270,29 @@
     "difficulty": "Intermediate",
     "type": ["Document"],
     "href": "https://docs.google.com/document/d/1zcnwVliyV8xTnqvcu1WNVt_FwUA1oOUtZhPbuffSZIQ"
+  },
+  {
+    "name": "Elite Mode Speedrunning Guide",
+    "icon": "https://yt3.ggpht.com/MgnXjUMgWbCqzEupNXoyV93t1F6DIun9DrquJ_Ma5sYNJAP6n9KekdVTK5TuyZUXJNit7-lH=s88-c-k-c0x00ffffff-no-rj",
+    "players": 1,
+    "difficulty": "Elite",
+    "type": ["Video"],
+    "href": "https://youtu.be/d8HWh_EpB20?si=XvJkRZlqCkjnzAAg"
+  },
+  {
+    "name": "Easy Mode SOLO VICTORY with RANGER ONLY",
+    "icon": "https://cdn.discordapp.com/avatars/335117080024317952/ceeb645c29aac80e94d4494b719d43c9.webp",
+    "players": 1,
+    "difficulty": "Easy",
+    "type": ["Video"],
+    "href": "https://youtu.be/spZQXYWgcpI?si=rD1KhyHQWGljghIl"
+  },
+  {
+    "name": "Elite Mode SOLO SPEEDRUN TRIUMPH Under 10 Minutes",
+    "icon": "https://cdn.discordapp.com/avatars/335117080024317952/ceeb645c29aac80e94d4494b719d43c9.webp",
+    "players": 1,
+    "difficulty": "Elite",
+    "type": ["Video"],
+    "href": "https://youtu.be/UUOFO_3sST4?si=_YsSggd2Bx6Yreux"
   }
 ]
