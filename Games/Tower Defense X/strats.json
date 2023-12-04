@@ -294,5 +294,69 @@
     "difficulty": "Elite",
     "type": ["Video"],
     "href": "https://youtu.be/UUOFO_3sST4"
+  },
+  {
+    "name": "Plague Precision",
+    "icon": "https://cdn.discordapp.com/avatars/926233149594292274/064a806477739e321795be468c300161.webp",
+    "players": 4,
+    "difficulty": "Elite",
+    "type": ["Document"],
+    "href": "https://docs.google.com/document/d/137-pY602guYHgEhSDwN4345I5acLCI7JoWUuXonzKEQ"
+  },
+  {
+    "name": "Plague Precision 1.1",
+    "icon": "https://cdn.discordapp.com/avatars/926233149594292274/064a806477739e321795be468c300161.webp",
+    "players": 3,
+    "difficulty": "Elite",
+    "type": ["Document", "Video"],
+    "href": "https://docs.google.com/document/d/1MTvpwV8KEw6DVxS0DFsiVaQTo-V-f9oxZrKg0-deA9o"
+  },
+  {
+    "name": "TheChosenOnes Hyper Grind",
+    "icon": "https://cdn.discordapp.com/avatars/1061011097215316080/6fcf7ee4b77a1e673029e7378b00b643.webp",
+    "players": 1,
+    "difficulty": "Easy",
+    "type": ["Document", "Video"],
+    "href": "https://docs.google.com/document/d/1QnAJj58qSSInq0YjPdrVYCu9mlkpguvw8Gvrrm8nWDk"
+  },
+  {
+    "name": "SOLO inter. Secret Forest BUDGET",
+    "icon": "https://cdn.discordapp.com/avatars/707320579908173866/a77d5dd927a1347c006506fce7e6a128.webp",
+    "players": 1,
+    "difficulty": "Intermediate",
+    "type": ["Document", "Video"],
+    "href": "https://docs.google.com/document/d/1HR-bt0yymWV0JavvCbzE4t_7JL_Hf1C_bHqvJTJQkcc"
+  },
+  {
+    "name": "Plague Depression",
+    "icon": "https://cdn.discordapp.com/avatars/508026607022112769/9f6b32ac1cc89beb6ecd85156cb81e9a.webp",
+    "players": 3,
+    "difficulty": "Elite",
+    "type": ["Document", "Video"],
+    "href": "https://docs.google.com/document/d/1emisPaGF0ePQ8WhxgSJotAIisUftmFGn-4v1QjIOWHI"
+  },
+  {
+    "name": "Forest Campers Elite",
+    "icon": "https://cdn.discordapp.com/avatars/604937454730084352/fea60735edc3fb6feeeb438c59498190.webp",
+    "players": 2,
+    "difficulty": "Elite",
+    "type": ["Document"],
+    "href": "https://docs.google.com/document/d/1Q4U9UioyoY81AAo9sjNzD4rcoae9MZbNjnZuIO14HHQ"
+  },
+  {
+    "name": "Casual Secret Forest Elite",
+    "icon": "https://cdn.discordapp.com/avatars/537775531832115211/c5ccdd25c3be92584565ac524e7ac364.webp",
+    "players": 4,
+    "difficulty": "Elite",
+    "type": ["Document"],
+    "href": "https://docs.google.com/document/d/133O2h-5GJnTPPz_Ck8_ibzA2ph4QShzAMGdxLl0iNKI"
+  },
+  {
+    "name": "Barrack/MT SOLO",
+    "icon": "https://cdn.discordapp.com/avatars/163746110106501120/3fad62367279c6648d7585cfa5847b01.webp",
+    "players": 1,
+    "difficulty": "Intermediate",
+    "type": ["Document"],
+    "href": "https://docs.google.com/document/d/1dJGbCysG7tLGpWgowAldwe3KHITTiYuHjyWb308v6cs"
   }
 ]
