@@ -16,17 +16,17 @@ fetch('strats.json').then(response => {
 
 function filterStrategies() {
     const selectedPlayers = Array.from(document.querySelectorAll('.player-filter:checked')).map(checkbox => parseInt(checkbox.value));
-    const selectedDifficulties = Array.from(document.querySelectorAll('.difficulty-filter:checked')).map(checkbox => checkbox.value);
+    const selectedModes = Array.from(document.querySelectorAll('.mode-filter:checked')).map(checkbox => checkbox.value);
     const selectedTypes = Array.from(document.querySelectorAll('.strategy-filter:checked')).map(checkbox => checkbox.value);
     const searchQuery = document.getElementById('search-input').value.toLowerCase();
 
     const filteredStrategies = strategies.filter(strategy => {
         const matchesPlayers = selectedPlayers.length === 0 || selectedPlayers.includes(strategy.players);
-        const matchesDifficulty = selectedDifficulties.length === 0 || selectedDifficulties.includes(strategy.difficulty);
+        const matchesMode = selectedModes.length === 0 || selectedModes.includes(strategy.mode);
         const matchesType = selectedTypes.length === 0 || selectedTypes.every(type => strategy.type.includes(type));
         const matchesSearch = strategy.name.toLowerCase().includes(searchQuery);
 
-        return matchesPlayers && matchesDifficulty && matchesType && matchesSearch;
+        return matchesPlayers && matchesMode && matchesType && matchesSearch;
     });
     
     return filteredStrategies;
@@ -69,7 +69,7 @@ document.getElementById('search-input').addEventListener('input', () => {
     displayFilteredStrategies();
 });
 
-document.querySelectorAll('.player-filter, .difficulty-filter, .strategy-filter').forEach(checkbox => {
+document.querySelectorAll('.player-filter, .mode-filter, .strategy-filter').forEach(checkbox => {
     checkbox.addEventListener('change', () => {
         displayFilteredStrategies();
     });
@@ -98,4 +98,20 @@ propertyButtons.forEach(button => {
         const targetId = this.getAttribute('data-target');
         toggleVisibility(targetId, "block");
     });
+});
+
+document.getElementById('DocumentHref').addEventListener('click', function() {
+    document.getElementById('DocumentId').checked = true;
+    document.getElementById('VideoId').checked = false;
+    
+    toggleVisibility("Strategy", "block");
+    displayFilteredStrategies();
+});
+
+document.getElementById('VideoHref').addEventListener('click', function() {
+    document.getElementById('VideoId').checked = true;
+    document.getElementById('DocumentId').checked = false;
+    
+    toggleVisibility("Strategy", "block");
+    displayFilteredStrategies();
 });

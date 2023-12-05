@@ -358,5 +358,13 @@
     "difficulty": "Intermediate",
     "type": ["Document"],
     "href": "https://docs.google.com/document/d/1dJGbCysG7tLGpWgowAldwe3KHITTiYuHjyWb308v6cs"
+  },
+  {
+    "name": "ULTIMATE Grinding Guide",
+    "icon": "https://yt3.googleusercontent.com/ILg41b-zRZfNmTdE6G5yVFTUFeY7YOSnKHKYPkvMeBn0D3dg2CR6VOVUNyv7u8nOn7LFY8bm",
+    "players": 1,
+    "difficulty": "Elite",
+    "type": ["Video"],
+    "href": "https://youtu.be/vKu1jnLgwZU?si=6ltXolonG3v9T5EI"
   }
 ]

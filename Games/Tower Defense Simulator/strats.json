@@ -1,26 +1,26 @@
 [
   {
-    "name": "SOLO ACT 3 TRIUMPH",
+    "name": "SOLO ACT 1 TRIUMPH",
     "icon": "https://cdn.discordapp.com/avatars/335117080024317952/ceeb645c29aac80e94d4494b719d43c9.webp",
     "players": 1,
-    "difficulty": "",
+    "mode": "Special",
     "type": ["Video"],
-   "href": "https://youtu.be/ngu89hmDTnQ"
+   "href": "https://youtu.be/T__mQ9Fzocg"
   },
   {
     "name": "SOLO ACT 2 TRIUMPH",
     "icon": "https://cdn.discordapp.com/avatars/335117080024317952/ceeb645c29aac80e94d4494b719d43c9.webp",
     "players": 1,
-    "difficulty": "",
+    "mode": "Special",
     "type": ["Video"],
    "href": "https://youtu.be/V0IF5jGAzz8"
   },
   {
-    "name": "SOLO ACT 1 TRIUMPH",
+    "name": "SOLO ACT 3 TRIUMPH",
     "icon": "https://cdn.discordapp.com/avatars/335117080024317952/ceeb645c29aac80e94d4494b719d43c9.webp",
     "players": 1,
-    "difficulty": "",
+    "mode": "Special",
     "type": ["Video"],
-   "href": "https://youtu.be/V0IF5jGAzz8"
+   "href": "https://youtu.be/ngu89hmDTnQ"
   }
 ]

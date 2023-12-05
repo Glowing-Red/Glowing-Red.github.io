@@ -19,8 +19,8 @@
             </div></a>
         </div>
         <div class="nav-item"><a href="../../index.html#Games">Games</a></div>
-        <div class="nav-item"><a href="#Documents">Documents</a></div>
-        <div class="nav-item"><a href="#Videos">Videos</a></div>
+        <div class="nav-item"><a id="DocumentHref">Documents</a></div>
+        <div class="nav-item"><a id="VideoHref">Videos</a></div>
         <div class="nav-item"><a href="#About">About</a></div>
     </nav>
 
@@ -51,7 +51,7 @@
                 <input type="text" id="search-input" placeholder="Strategy name...">
                 <div>
                     <button class="property-button" data-target="Party Size">Party Size</button>
-                    <button class="property-button" data-target="Difficulty">Difficulty</button>
+                    <button class="property-button" data-target="Mode">Mode</button>
                     <button class="property-button" data-target="Strategy">Strategy</button>
                 </div>
             </div>
@@ -62,16 +62,16 @@
                     <label><input type="checkbox" class="player-filter" value="3">Trio</label>
                     <label><input type="checkbox" class="player-filter" value="4">Squad</label>
                 </div>
-                <div class="hidden-properties" id="Difficulty">
-                    <label><input type="checkbox" class="difficulty-filter" value="Easy">Easy</label>
-                    <label><input type="checkbox" class="difficulty-filter" value="Intermediate">Intermediate</label>
-                    <label><input type="checkbox" class="difficulty-filter" value="Nightmare">Nightmare</label>
-                    <label><input type="checkbox" class="difficulty-filter" value="Elite">Elite</label>
-                    <label><input type="checkbox" class="difficulty-filter" value="Expert">Expert</label>
+                <div class="hidden-properties" id="Mode">
+                    <label><input type="checkbox" class="mode-filter" value="Normal">Normal</label>
+                    <label><input type="checkbox" class="mode-filter" value="Molten">Molten</label>
+                    <label><input type="checkbox" class="mode-filter" value="Fallen">Fallen</label>
+                    <label><input type="checkbox" class="mode-filter" value="Hardcore">Hardcore</label>
+                    <label><input type="checkbox" class="mode-filter" value="Special">Special</label>
                 </div>
                 <div class="hidden-properties" id="Strategy">
-                    <label><input type="checkbox" class="strategy-filter" value="Document">Document</label>
-                    <label><input type="checkbox" class="strategy-filter" value="Video">Video</label>
+                    <label><input type="checkbox" class="strategy-filter" value="Document" id="DocumentId">Document</label>
+                    <label><input type="checkbox" class="strategy-filter" value="Video" id="VideoId">Video</label>
                 </div>
             </div>
         </div>

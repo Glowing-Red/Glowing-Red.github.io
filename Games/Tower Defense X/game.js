@@ -99,3 +99,19 @@ propertyButtons.forEach(button => {
         toggleVisibility(targetId, "block");
     });
 });
+
+document.getElementById('DocumentHref').addEventListener('click', function() {
+    document.getElementById('DocumentId').checked = true;
+    document.getElementById('VideoId').checked = false;
+    
+    toggleVisibility("Strategy", "block");
+    displayFilteredStrategies();
+});
+
+document.getElementById('VideoHref').addEventListener('click', function() {
+    document.getElementById('VideoId').checked = true;
+    document.getElementById('DocumentId').checked = false;
+    
+    toggleVisibility("Strategy", "block");
+    displayFilteredStrategies();
+});
